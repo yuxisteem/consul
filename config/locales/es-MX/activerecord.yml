@@ -171,7 +171,7 @@ es-MX:
         slug: Slug
         status: Estado
         title: Título
-        updated_at: última actualización
+        updated_at: 'última actualización'
         more_info_flag: Mostrar en la página de más información
         print_content_flag: Botón de imprimir contenido
         locale: Idioma
