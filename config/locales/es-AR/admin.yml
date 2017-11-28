@@ -851,7 +851,7 @@ es-AR:
         association_name: Asociación
         by: Autor
         sent: Fecha
-        geozone: Ámbito
+        geozone: 'Ámbito'
         dossier: Informe
         edit_dossier: Editar informe
         tags: Etiquetas
@@ -866,7 +866,7 @@ es-AR:
       summary:
         title: Resumen de propuestas de inversión
         title_proposals_with_supports: Resumen para propuestas que han superado la fase de apoyos
-        geozone_name: Ámbito de ciudad
+        geozone_name: 'Ámbito de ciudad'
         finished_and_feasible_count: Finalizadas viables
         finished_and_unfeasible_count: Finalizadas inviables
         finished_count: Finalizadas
@@ -1055,7 +1055,7 @@ es-AR:
           created_at: Creada
           status: Estado
           title: Título
-          updated_at: Última actualización
+          updated_at: 'Última actualización'
           status_draft: Borrador
           status_published: Publicada
           locale: Idioma
