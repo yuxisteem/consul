@@ -89,7 +89,7 @@ es-PE:
         association_name: Asociación
         by: Enviada por
         sent: Fecha de creación
-        geozone: Ámbito
+        geozone: 'Ámbito'
         dossier: Informe
         edit_dossier: Editar informe
         price: Coste
