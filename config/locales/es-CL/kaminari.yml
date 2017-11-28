@@ -16,7 +16,7 @@ es-CL:
     pagination:
       current: Estás en la página
       first: Primera
-      last: Última
+      last: 'Última'
       next: Siguiente
       previous: Anterior
       truncate: "&hellip;"
