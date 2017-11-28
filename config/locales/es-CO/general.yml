@@ -200,7 +200,7 @@ es-CO:
       accessibility: Accesibilidad
       conditions: Condiciones de uso
       consul: aplicación CONSUL
-      consul_url: 'https://github.com/consul/consul'
+      consul_url: https://github.com/consul/consul
       contact_us: Para asistencia técnica entra en
       copyright: CONSUL, %{year}
       description: Este portal usa la %{consul} que es %{open_source}.
@@ -208,13 +208,13 @@ es-CO:
       open_data_text: Todos los datos del Ayuntamiento son tuyos.
       open_data_title: Datos Abiertos
       open_source: software de código abierto
-      open_source_url: 'http://www.gnu.org/licenses/agpl-3.0.html'
+      open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
       participation_text: Decide cómo debe ser la ciudad que quieres.
       participation_title: Participación
       privacy: Política de privacidad
       transparency_text: Obtén cualquier información sobre la ciudad.
       transparency_title: Transparencia
-      transparency_url: 'https://transparency.consul'
+      transparency_url: https://transparency.consul
     header:
       administration_menu: Admin
       administration: Administración
@@ -223,9 +223,9 @@ es-CO:
       debates: Debates
       external_link_blog: Blog
       external_link_opendata: Datos abiertos
-      external_link_opendata_url: 'https://opendata.consul'
+      external_link_opendata_url: https://opendata.consul
       external_link_transparency: Transparencia
-      external_link_transparency_url: 'https://transparency.consul'
+      external_link_transparency_url: https://transparency.consul
       locale: 'Idioma:'
       logo: Logo de CONSUL
       management: Gestión
@@ -275,7 +275,7 @@ es-CO:
   map:
     title: "Distritos"
     proposal_for_district: "Crea una propuesta para tu distrito"
-    select_district: Ámbito de actuación
+    select_district: 'Ámbito de actuación'
     start_proposal: Crea una propuesta
   omniauth:
     facebook:
@@ -320,7 +320,7 @@ es-CO:
       done: Realizada
       other: Otra
     form:
-      geozone: Ámbito de actuación
+      geozone: 'Ámbito de actuación'
       proposal_external_url: Enlace a documentación adicional
       proposal_question: Pregunta de la propuesta
       proposal_question_example_html: "Debe ser resumida en una pregunta cuya respuesta sea Sí o No. <br>Ej. '¿Está usted de acuerdo en peatonalizar la calle Mayor?'"
@@ -634,7 +634,7 @@ es-CO:
       association_name: 'Nombre de la asociación'
       description: Descripción detallada
       external_url: Enlace a documentación adicional
-      geozone: Ámbito de actuación
+      geozone: 'Ámbito de actuación'
       submit_buttons:
         create: Crear
         new: Crear
@@ -651,7 +651,7 @@ es-CO:
         one: " que contiene '%{search_term}'"
         other: " que contienen '%{search_term}'"
       sidebar:
-        geozones: Ámbitos de actuación
+        geozones: 'Ámbitos de actuación'
         feasibility: Viabilidad
         unfeasible: No viables
       start_spending_proposal: Crea una propuesta de inversión
