@@ -1,9 +1,9 @@
 fr:
   valuation:
     header:
-      title: 'Évaluation'
+      title: Évaluation
     menu:
-      title: 'Évaluation'
+      title: Évaluation
       budgets: Budgets participatifs
       spending_proposals: Propositions d'investissement
     budgets:
@@ -16,19 +16,19 @@ fr:
         table_phase: Phase de
         table_assigned_investments_valuation_open: Propositions d'investissement assignées avec une évaluation ouverte
         table_actions: Statut des votes
-        evaluate: 'Évaluer'
+        evaluate: Évaluer
     budget_investments:
       index:
         headings_filter_all: Tous les titres
         filters:
           valuation_open: Ouvert
           valuating: En cours d'évaluation
-          valuation_finished: 'Évaluation terminée'
+          valuation_finished: Évaluation terminée
         assigned_to: "Assigné à %{valuator}"
         title: Propositions d'investissement
-        edit: 'Éditer le rapport'
+        edit: Éditer le rapport
         valuators_assigned:
-          one: 'Évaluateur assigné'
+          one: Évaluateur assigné
           other: "%{count} évaluateurs assignés"
         no_valuators_assigned: Pas d'évaluateur assigné
         table_id: ID
@@ -43,7 +43,7 @@ fr:
         sent: Envoyé à
         heading: Titre
         dossier: Rapport
-        edit_dossier: 'Éditer le rapport'
+        edit_dossier: Éditer le rapport
         price: Coût
         price_first_year: Coût durant la première année
         currency: "€"
@@ -51,12 +51,12 @@ fr:
         feasible: Faisable
         unfeasible: Infaisable
         undefined: Indéfini
-        valuation_finished: 'Évaluation terminée'
+        valuation_finished: Évaluation terminée
         duration: Délai d'exécution
         internal_comments: Commentaires internes
         responsibles: Responsables
         assigned_admin: Administrateur assigné
-        assigned_valuators: 'Évaluateurs assignés'
+        assigned_valuators: Évaluateurs assignés
       edit:
         dossier: Rapport
         price_html: "Coût (%{currency})"
@@ -67,7 +67,7 @@ fr:
         unfeasible: Infaisable
         undefined_feasible: Indécis
         feasible_explanation_html: Informations sur la non-viabilité <small>(le cas échéant, données publiques)</small>
-        valuation_finished: 'Évaluation terminée'
+        valuation_finished: Évaluation terminée
         duration_html: Délai d'exécution <small>(optionnel, données non publiques)</small>
         internal_comments_html: Commentaires et observations <small>(pour les responsables internes, données non publiques)</small>
         save: Enregistrer les changements
@@ -79,9 +79,9 @@ fr:
         filters:
           valuation_open: Ouvert
           valuating: En cours d'évaluation
-          valuation_finished: 'Évaluation terminée'
+          valuation_finished: Évaluation terminée
         title: Propositions d'investissement pour les budgets participatifs
-        edit: 'Éditer'
+        edit: Éditer
       show:
         back: Retour
         heading: Proposition d'investissement
@@ -91,7 +91,7 @@ fr:
         sent: Envoyé à
         geozone: Domaines
         dossier: Rapport
-        edit_dossier: 'Éditer le rapport'
+        edit_dossier: Éditer le rapport
         price: Coût
         price_first_year: Coût durant la première année
         currency: "€"
@@ -99,12 +99,12 @@ fr:
         feasible: Faisable
         not_feasible: Infaisable
         undefined: Indéfini
-        valuation_finished: 'Évaluation terminée'
+        valuation_finished: Évaluation terminée
         time_scope: Durée d'exécution
         internal_comments: Commentaires internes
         responsibles: Responsables
         assigned_admin: Administrateur assigné
-        assigned_valuators: 'Évaluateurs assignés'
+        assigned_valuators: Évaluateurs assignés
       edit:
         dossier: Rapport
         price_html: "Coût (%{currency}) <small>(données publiques)</small>"
@@ -116,7 +116,7 @@ fr:
         not_feasible: Infaisable
         undefined_feasible: Indécis
         feasible_explanation_html: Informations sur la non-viabilité <small>(le cas échéant, données publiques)</small>
-        valuation_finished: 'Évaluation terminée'
+        valuation_finished: Évaluation terminée
         time_scope_html: Délai d'exécution <small>(optionnel, données non publiques)</small>
         internal_comments_html: Commentaires et observations <small>(pour les responsables internes, données non publiques)</small>
         save: Enregistrer les changements
