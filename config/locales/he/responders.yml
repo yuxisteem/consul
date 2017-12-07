@@ -11,7 +11,7 @@ he:
         budget_investment: "תקצוב ההשקעות נוצר בהצלחה"
         signature_sheet: "גיליון חתימות נוצר בהצלחה"
       save_changes:
-        notice: 'השינויים נשמרו'
+        notice: השינויים נשמרו
       update:
         notice: "%{resource_name} עודכן בהצלחה"
         debate: "הדיון עודכן בהצלחה"
