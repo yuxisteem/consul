@@ -42,7 +42,7 @@ es-PE:
         updated_at: actualizada el %{date}
         see_changes: ver resumen de cambios
         see_comments: Ver todos los comentarios
-        text_toc: 'Índice'
+        text_toc: Índice
         text_body: Texto
         text_comments: Comentarios
     processes:
