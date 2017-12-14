@@ -14,19 +14,13 @@ es-CR:
         proposal: Participa en la comunidad de esta propuesta. Una comunidad activa puede ayudar a mejorar el contenido de la propuesta así como a dinamizar su difusión para conseguir más apoyos.
         investment: Participa en la comunidad de este proyecto de inversión. Una comunidad activa puede ayudar a mejorar el contenido del proyecto de inversión así como a dinamizar su difusión para conseguir más apoyos.
       create_first_community_topic:
-        first_theme_not_logged_in: Aún no hay ningun tema disponible, participa creando el primero. Haz click en el botón crear nuevo tema.
         first_theme: Crea el primer tema de la comunidad
-        sub_first_theme: Para crear un tema tienes que %{link}
-        sign_link: "acceder a %{org_name}"
       tab:
         participants: Participantes
       sidebar:
         participate: Participa
         new_topic: Crea un tema
-        disabled_info_title: Necesitas estar logueado para crear un nuevo tema
       topic:
-        edit_button: Editar
-        destroy_button: Eliminar
         comments:
           zero: Sin comentarios
           one: 1 Comentario
@@ -35,8 +29,6 @@ es-CR:
       create: Crear un tema
       edit: Editar tema
       form:
-        topic_title: Titulo del tema
-        topic_description: Descripción
         new:
           submit_button: Crear tema
         edit:
