@@ -121,4 +121,43 @@ shared_examples "relationable" do |relationable_model_name|
 
     expect(page).to_not have_css("#related-content-list")
   end
+
+  scenario 'happy path', :js do
+    login_as(user)
+    visit eval("#{relationable.class.name.downcase}_path(relationable)")
+
+    click_on("Add related content")
+
+    within("#related_content") do
+      fill_in 'url', with: "#{Setting['url']}/#{related1.class.name.downcase.pluralize}/#{related1.to_param}"
+      click_button "Add"
+    end
+
+    within("#related-content-list") do
+      expect(page).to_not have_css(".score-positive")
+      expect(page).to_not have_css(".score-negative")
+    end
+
+    related_content = create(:related_content, parent_relationable: relationable, child_relationable: related2, author: build(:user))
+
+    visit eval("#{relationable.class.name.downcase}_path(relationable)")
+
+    within("#related-content-list") do
+      find("#related-content-#{related_content.opposite_related_content.id}").hover
+      find("#score-positive-related-#{related_content.opposite_related_content.id}").click
+
+      expect(page).to_not have_css("#score-positive-related-#{related_content.opposite_related_content.id}")
+    end
+
+    logout
+    visit eval("#{related2.class.name.downcase}_path(related2)")
+
+    expect(page).to_not have_content("Add related content")
+
+    within("#related-content-list") do
+      expect(page).to have_content(relationable.title)
+      expect(page).to_not have_css(".score-positive")
+      expect(page).to_not have_css(".score-negative")
+    end
+  end
 end
