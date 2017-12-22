@@ -168,7 +168,6 @@ es-GT:
     direct_message: el mensaje privado
     error: error
     errors: errores
-    not_saved: 'impidieron guardar %{resource}:'
     policy: Política de privacidad
     proposal: la propuesta
     proposal_notification: "la notificación"
