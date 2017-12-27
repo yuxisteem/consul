@@ -344,7 +344,6 @@ es-AR:
         hot_score: Más activas hoy
         most_commented: Más comentadas
         relevance: Más relevantes
-        archival_date: Archivadas
         recommendations: Recomendaciones
       recommendations:
         without_results: No existen propuestas relacionadas con tus intereses
