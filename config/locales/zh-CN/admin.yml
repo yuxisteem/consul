@@ -1,210 +1,210 @@
-en:
+zh-CN:
   admin:
     header:
-      title: Administration
+      title: 管理
     actions:
-      actions: Actions
-      confirm: Are you sure?
-      confirm_hide: Confirm
-      hide: Hide
-      hide_author: Hide author
-      restore: Restore
-      mark_featured: Featured
-      unmark_featured: Unmark featured
-      edit: Edit
-      configure: Configure
+      actions: 操作
+      confirm: 你确定吗？
+      confirm_hide: 确认
+      hide: 隐藏
+      hide_author: 隐藏作者
+      restore: 恢复
+      mark_featured: 推荐
+      unmark_featured: 取消推荐
+      edit: 编辑
+      configure: 配置
     banners:
       index:
-        title: Banners
-        create: Create banner
-        edit: Edit banner
-        delete: Delete banner
+        title: 横幅
+        create: 创建横幅
+        edit: 编辑横幅
+        delete: 删除横幅
         filters:
-          all: All
-          with_active: Active
-          with_inactive: Inactive
-        preview: Preview
+          all: 所有
+          with_active: 活跃
+          with_inactive: 不活跃
+        preview: 预览
       banner:
-        title: Title
-        description:  Description
-        target_url:  Link
-        style: Style
-        image: Image
-        post_started_at: Post started at
-        post_ended_at: Post ended at
+        title: 标题
+        description: 描述
+        target_url: 链接
+        style: 样式
+        image: 图片
+        post_started_at: 帖子开始于
+        post_ended_at: 帖子结束于
       edit:
-        editing: Edit banner
+        editing: 编辑横幅
         form:
-          submit_button: Save changes
+          submit_button: 保存更改
       errors:
         form:
           error:
-            one: "error prevented this banner from being saved"
-            other: 'errors prevented this banner from being saved'
+            one: "由于出错，此横幅无法保存"
+            other: '由于出错，此横幅无法保存'
       new:
-        creating: Create banner
+        creating: 创建横幅
     activity:
       show:
-        action: Action
+        action: 操作
         actions:
-          block: Blocked
-          hide: Hidden
-          restore: Restored
-        by: Moderated by
-        content: Content
-        filter: Show
+          block: 被阻止
+          hide: 隐藏
+          restore: 已恢复
+        by: 协调人
+        content: 内容
+        filter: 显示
         filters:
-          all: All
-          on_comments: Comments
-          on_debates: Debates
-          on_proposals: Proposals
-          on_users: Users
-        title: Moderator activity
-        type: Type
-        no_activity: There ares no moderators activity.
+          all: 所有
+          on_comments: 注释
+          on_debates: 辩论
+          on_proposals: 建议
+          on_users: 用户
+        title: 协调人的活动
+        type: 类型
+        no_activity: 没有协调人的活动。
     budgets:
       index:
-        title: Participatory budgets
-        new_link: Create new budget
-        filter: Filter
+        title: 参与式预算
+        new_link: 创建新的预算
+        filter: 过滤器
         filters:
-          current: Open
-          finished: Finished
-        budget_investments: See budget investments
-        table_name: Name
-        table_phase: Phase
-        table_investments: Investments
-        table_edit_groups: Headings groups
-        table_edit_budget: Edit
-        edit_groups: Edit headings groups
-        edit_budget: Edit budget
+          current: 打开
+          finished: 已完成
+        budget_investments: 察看预算投资
+        table_name: 名称
+        table_phase: 阶段
+        table_investments: 投资
+        table_edit_groups: 标题组
+        table_edit_budget: 编辑
+        edit_groups: 编辑标题组
+        edit_budget: 编辑预算
       create:
-        notice: New participatory budget created successfully!
+        notice: 已成功创建新的参与式预算！
       update:
-        notice: Participatory budget updated successfully
+        notice: 已成功更新新的参与式预算
       edit:
-        title: Edit Participatory budget
+        title: 编辑参与式预算
       new:
-        title: New participatory budget
+        title: 新的参与式预算 
       show:
         groups:
-          one: 1 Group of budget headings
-          other: "%{count} Groups of budget headings"
+          one: 1个预算标题组
+          other: "%{count}个预算标题组"
       form:
-        group: Group name
-        no_groups: No groups created yet. Each user will be able to vote in only one heading per group.
-        add_group: Add new group
-        create_group: Create group
-        heading: Heading name
-        add_heading: Add heading
-        amount: Amount
-        population: Population
-        save_heading: Save heading
-        no_heading: This group has no assigned heading.
-        table_heading: Heading
-        table_amount: Amount
-        table_population: Population
-        population_info: "Budget Heading population field is used for Statistic purposes at the end of the Budget to show for each Heading that represents an area with population what percentage voted. The field is optional so you can leave it empty if it doesn't apply."
+        group: 组名
+        no_groups: 尚未创建组。每个用户将只能为每个组的一个标题投票。
+        add_group: 添加新组
+        create_group: 创建组
+        heading: 标题名称
+        add_heading: 添加标题
+        amount: 量
+        population: 人口
+        save_heading: 保存标题
+        no_heading: 这个组没有分配标题。
+        table_heading: 标题
+        table_amount: 量
+        table_population: 人口
+        population_info: "预算标题人口字段用于在预算结束时的统计， 每个标题代表在指定区域内人口投票的百分比。 该字段是可选的， 因此如果不适用可以将其留空。"
       winners:
-        calculate: Calculate Winner Investments
-        calculated: Winners being calculated, it may take a minute.
+        calculate: 计算优胜者投资
+        calculated: 正在计算优胜者，可能需要一分钟。
     budget_investments:
       index:
-        heading_filter_all: All headings
-        administrator_filter_all: All administrators
-        valuator_filter_all: All valuators
-        tags_filter_all: All tags
+        heading_filter_all: 所有标题
+        administrator_filter_all: 所有管理员
+        valuator_filter_all: 所有评估人员
+        tags_filter_all: 所有标签
         filters:
-          valuation_open: Open
-          without_admin: Without assigned admin
-          managed: Managed
-          valuating: Under valuation
-          valuation_finished: Valuation finished
-          valuation_finished_feasible: Val. fin. Feasible
-          selected: Selected
-          winners: Winners
-          all: All
-        title: Investment projects
-        assigned_admin: Assigned administrator
-        no_admin_assigned: No admin assigned
-        no_valuators_assigned: No valuators assigned
+          valuation_open: 打开
+          without_admin: 没有分配管理员
+          managed: 管理
+          valuating: 正在进行评估
+          valuation_finished: 评估完成
+          valuation_finished_feasible: 评估完成。可行
+          selected: 已选
+          winners: 获奖者
+          all: 所有
+        title: 投资项目
+        assigned_admin: 指定的管理员
+        no_admin_assigned: 没有分配管理员
+        no_valuators_assigned: 没有分配评估人员
         feasibility:
-          feasible: "Feasible (%{price})"
-          unfeasible: "Unfeasible"
-          undecided: "Undecided"
-        selected: "Selected"
-        select: "Select"
+          feasible: "可行(%{price})"
+          unfeasible: "不可行"
+          undecided: "未定"
+        selected: "已选"
+        select: "选择"
         table_id: "ID"
-        table_title: "Title"
-        table_supports: "Supports"
-        table_admin: "Administrator"
-        table_valuator: "Valuator"
-        table_geozone: "Scope of operation"
-        table_feasibility: "Feasibility"
-        table_valuation_finished: "Val. Fin."
-        table_selection: "Selection"
-        table_incompatible: "Incompatible"
+        table_title: "标题"
+        table_supports: "支持"
+        table_admin: "管理员"
+        table_valuator: "评估师"
+        table_geozone: "操作范围"
+        table_feasibility: "可行性"
+        table_valuation_finished: "评估结束"
+        table_selection: "选择"
+        table_incompatible: "不兼容"
       show:
-        assigned_admin: Assigned administrator
-        assigned_valuators: Assigned valuators
-        classification: Clasification
-        info: "%{budget_name} - Group: %{group_name} - Investment project %{id}"
-        edit: Edit
-        edit_classification: Edit classification
-        by: By
-        sent: Sent
-        group: Grupo
-        heading: Heading
-        dossier: Dossier
-        edit_dossier: Edit dossier
-        tags: Tags
-        user_tags: User tags
-        undefined: Undefined
-        milestone: Milestone
-        new_milestone: Create new milestone
+        assigned_admin: 指定的管理员
+        assigned_valuators: 分配的评估师
+        classification: 分类
+        info: "%{budget_name} - 组: %{group_name} - 投资项目 %{id}"
+        edit: 编辑
+        edit_classification: 编辑分类
+        by: 通过
+        sent: 发送
+        group: 组
+        heading: 标题
+        dossier: 档案
+        edit_dossier: 编辑档案
+        tags: 标签
+        user_tags: 用户标签
+        undefined: 未定义
+        milestone: 里程碑
+        new_milestone: 创造新里程碑
         compatibility:
-          title: Compatibility
-          "true": Incompatible
-          "false": Compatible
+          title: 兼容性
+          "true": 不兼容
+          "false": 兼容
         selection:
-          title: Selection
-          "true": Selected
-          "false": Not selected
+          title: 选择
+          "true": 选择
+          "false": 未选中的
         winner:
-          title: Winner
-          "true": "Yes"
-          "false": "No"
+          title: 优胜者
+          "true": "是"
+          "false": "否"
       edit:
-        classification: Clasification
-        compatibility: Compatibility
-        mark_as_incompatible: Mark as incompatible
-        selection: Selection
-        mark_as_selected: Mark as selected
-        assigned_valuators: Valuators
-        select_heading: Select heading
-        submit_button: Update
-        user_tags: User assigned tags
-        tags: Tags
-        tags_placeholder: "Write the tags you want separated by commas (,)"
-        undefined: Undefined
-      search_unfeasible: Search unfeasible
+        classification: 分类
+        compatibility: 兼容性
+        mark_as_incompatible: 标记为不兼容
+        selection: 选择
+        mark_as_selected: 标记为选中
+        assigned_valuators: 评价者
+        select_heading: 选择标题
+        submit_button: 更新
+        user_tags: 用户分配的标签
+        tags: 标签
+        tags_placeholder: "写下你想用逗号分隔的标签（，）"
+        undefined: 未定义
+      search_unfeasible: 搜索不可用
     milestones:
       index:
         table_id: "ID"
-        table_title: "Title"
-        table_description: "Description"
-        table_publication_date: "Publication date"
-        table_actions: "Actions"
-        delete: "Delete milestone"
-        no_milestones: "Don't have defined milestones"
-        image: "Image"
-        show_image: "Show image"
-        documents: "Documents"
+        table_title: "标题"
+        table_description: "描述"
+        table_publication_date: "发布日期"
+        table_actions: "操作"
+        delete: "删除里程碑"
+        no_milestones: "没有定义里程碑"
+        image: "图片"
+        show_image: "显示图像"
+        documents: "文件"
       new:
-        creating: Create milestone
-        date: Date
+        creating: 创建里程碑
+        date: 日期
       edit:
-        title: Edit milestone
+        title: 编辑里程碑
       create:
         notice: New milestone created successfully!
       update:
